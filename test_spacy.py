@@ -23,3 +23,5 @@ for token in doc:
 print("Apro la visualizzazione delle dipendenze sintattiche...")
 displacy.serve(doc, style="ent",
 port=8654, host="127.0.0.1")
+
+print("aaaaaaaaaaaaaaa")
